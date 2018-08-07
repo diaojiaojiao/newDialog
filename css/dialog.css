@@ -1,0 +1,32 @@
+.dialogContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    cursor: pointer;
+}
+.dialogEle {
+    width:300px;
+}
+.dialogTitle {
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    background: #dbdbdb;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.cancelBtn {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+   line-height: 18px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #dbdbdb;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
